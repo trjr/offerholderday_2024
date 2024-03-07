@@ -43,7 +43,7 @@ int main(){
         printf("Error initializing SDL: %s\n", SDL_GetError());
         exit(1);
     }
-    SDL_Window* win = SDL_CreateWindow("UoR Visit Day", // creates a window
+    SDL_Window* win = SDL_CreateWindow("UoR Offer Holder Day", // creates a window
                                        SDL_WINDOWPOS_CENTERED,
                                        SDL_WINDOWPOS_CENTERED,
                                        SIZE, SIZE, 0);
